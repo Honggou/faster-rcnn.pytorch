@@ -40,6 +40,7 @@ def get_extensions():
         ]
 
     sources = [os.path.join(extensions_dir, s) for s in sources]
+    print(sources)
 
     include_dirs = [extensions_dir]
 
